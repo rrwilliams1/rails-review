@@ -24,8 +24,60 @@ h1{
     margin-bottom:50px;
   }
 h2{
-  font-size: 2em;
-  text-align: left;
-  color:#1E90FF;
+    font-size: 20px;
+    font-size: 2em;
+    font-family:georgia ;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-top:50px;
+    margin-bottom:50px;
+    color:green;
 }
-   
+
+h3{
+    font-size: 20px;
+    font-size: 2em;
+    font-family:georgia ;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-top:50px;
+    margin-bottom:50px;
+    color:purple;
+}
+
+h4{
+    font-size: 20px;
+    font-size: 2em;
+    font-family:georgia ;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-top:50px;
+    margin-bottom:50px;
+    color:yellow;
+}
+
+h5{
+    font-size: 20px;
+    font-size: 2em;
+    font-family:georgia ;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-top:50px;
+    margin-bottom:50px;
+    color:brightgreen;
+}
+
+h6{
+    font-size: 20px;
+    font-size: 2em;
+    font-family:georgia ;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-top:50px;
+    margin-bottom:50px;
+    color:fuchsia;
+}
+  
+div{
+  padding=50px;
+}

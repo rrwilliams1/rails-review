@@ -1,26 +1,26 @@
 class ApplicationController < ActionController::Base
-
-  def show
-    @gif = Gif2.find_by_id(params['id'])     
-      render 'show'
-    end
-  
+   
   def new
     
   end
  
   def create
-        g = Gif2.new
-        g.name = params['name']
-        g.caption = params['caption']
-        g.save
-        redirect_to "/gif/#{ g.id }"
-        g.save
-      end
+    g = Gif2.new
+    g.name = params['name']
+    g.caption = params['caption']
+    g.save
+    redirect_to "/gif/#{ g.id }"
+  end
+
+  def show
+    @gif = Gif2.find_by_id(params['id'])     
+    render 'show'
+  end
     
-    def edit
-      @gif= Gif.find_by_id (params['id'])
-      g.save
+  def edit
+     @gif = Gif2.find_by_id(params['id'])
+     @name = Gif2.find_by_name(params['name'])
+     @caption = Gif2.find_by_caption(params['caption'])
   end
  
     

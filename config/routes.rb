@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  get '/new_idea' => 'application#new'
-  get '/create_gif' => 'application#create'
-  get '/ideas_edit' => 'application#edit'
+  get '/gif_new' => 'application#new'
+  get '/gif_create' => 'application#create'
+  get '/gif_edit/:id' => 'application#edit'
   get '/gif/:id' => 'application#show'
   
   

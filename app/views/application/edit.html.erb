@@ -1,8 +1,22 @@
-
+ <div class="row">
+      <div class="col-md-6 col-md-offset-4">
+        <div class="panel panel-info" >
+          <div class = "panel-heading">
+            <h2 class= "panel-title"> Your Account </h2>
+          </div>
+          <div class="panel-body">
+            <div>
+               <h3>Add Ideas</h3>
+                <div class="container">
+                    <div class="row">
+                       <div class="col-md-4 col-md-offset-0">
+                         </div>
+                      </div>
+                    </div>
 <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>I changed my mind!!</h1>
+        <h6>I changed my mind!!</h6>
       </div>
     </div>
   </div>   
@@ -10,7 +24,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-md-offset-4">
-              <form action="/update_gif/<%= @gif.id %>">
+              <form action="/gif_update/<%= @gif.id %>">
                 <input type="text" name="caption" placeholder="caption" value="<%= @gif.caption %>">
                 <input type="text" name="name" placeholder="Name" value="<%= @gif.name %>">
                 <input type="submit">
@@ -18,13 +32,4 @@
       </div>
     </div>
   </div>
-
-
-<h3> </h3>
- <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        
- <h2>Edit Gif</h2>
-
 
